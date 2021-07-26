@@ -6,7 +6,9 @@ function CreateArea() {
       <form>
         <input name="title" placeholder="Title" />
         <textarea name="content" placeholder="Take a note..." rows="3" />
-        <button>Add</button>
+        <button>
+          <i class="fas fa-plus"></i>
+        </button>
       </form>
     </div>
   );
